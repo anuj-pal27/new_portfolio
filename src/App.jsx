@@ -75,89 +75,120 @@ const navLinks = [
 
 const projects = [
   {
-    title: 'Hotel Booking Website',
-    description: 'Full-stack app like Airbnb. Secure auth, error handling, deployed on Render.',
-    tags: ['Full Stack', 'Node.js', 'React', 'MongoDB'],
-    link: 'https://airlisting.onrender.com/listings',
-    github: 'https://github.com/anuj-pal27/airlisting.git',
+    title: 'Pragati Prime',
+    description: 'NGO Management & Outreach Platform with an admin panel built using Next.js.',
+    tags: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+    link: 'https://pragatiprime.org',
+    github: '#',
     accent: 'border-blue-500 shadow-blue-500/50',
     icon: <Globe className="text-blue-400" />,
     details: [
-      'Users can browse/book hotels or create listings.',
-      'Secure authentication & authorization.',
-      'Custom error handling & validation.',
-      'Deployed on Render.',
+      'Built and deployed a live NGO platform with an admin panel.',
+      'Integrated Supabase for back-end database and authentication.',
+      'Designed responsive UI using Tailwind CSS.',
     ],
-    screenshots: [airlistingImg1, airlistingImg2],
-  },
-  {
-    title: 'Rail Track Crack Detection',
-    description: 'ML system using TensorFlow.js & Teachable Machine to detect track anomalies.',
-    tags: ['ML', 'TensorFlow.js', 'Teachable Machine'],
-    link: 'https://track-checking.vercel.app/',
-    github: 'https://github.com/anuj-pal27/track_checking.git',
-    accent: 'border-pink-500 shadow-pink-500/50',
-    icon: <Cpu className="text-pink-400" />,
-    details: ['Analyzes track images for cracks.', 'Custom-trained ML model.', 'Real-time web integration.'],
-    screenshots: [trackdetectImg1],
-  },
-  {
-    title: 'PDF Editor Tool',
-    description: 'Browser-based PDF editor with annotation, text editing, and canvas rendering.',
-    tags: ['PDF', 'JavaScript', 'Fabric.js'],
-    link: 'https://full-pdf-editor.vercel.app/',
-    github: '#',
-    accent: 'border-green-500 shadow-green-500/50',
-    icon: <Layers className="text-green-400" />,
-    details: ['Edit text, add images/links.', 'Draw signatures & annotate.', 'Canvas-based rendering.'],
-    screenshots: [pdfeditorImg1],
-  },
-  {
-    title: 'AI Image Unblur',
-    description: 'Restores clarity to blurred images using advanced AI APIs.',
-    tags: ['AI', 'Image Processing'],
-    link: '#',
-    github: '#',
-    accent: 'border-yellow-500 shadow-yellow-500/50',
-    icon: <Maximize2 className="text-yellow-400" />,
-    details: ['Uses AI APIs for restoration.', 'Responsive UI.'],
     screenshots: [],
   },
   {
-    title: 'PDF Chatbot Application',
-    description: 'Chat with PDFs using LangChain, LLMs, FastAPI, and React.',
-    tags: ['LLM', 'LangChain', 'FastAPI'],
+    title: 'Subscription SaaS Platform',
+    description: 'Subscription Reselling Platform built for a SaaS startup environment.',
+    tags: ['Next.js', 'Supabase', 'React', 'Vercel'],
+    link: 'https://vyapaar3601.vercel.app/',
+    github: '#',
+    accent: 'border-pink-500 shadow-pink-500/50',
+    icon: <Database className="text-pink-400" />,
+    details: [
+      'Built and maintained core full-stack features for a SaaS product.',
+      'Improved activation rate by ~15% by tracking user funnels.',
+      'Identified conversion bottlenecks through iterative feature improvements.',
+    ],
+    screenshots: [],
+  },
+  {
+    title: 'Multi-tenant LMS & RAG',
+    description: 'Developed advanced LMS features including AI quiz generation and RAG pipelines.',
+    tags: ['Ruby on Rails', 'PostgreSQL', 'pgvector'],
     link: '#',
-    github: 'https://github.com/anuj-pal27/python-pdf-ai.git',
-    accent: 'border-purple-500 shadow-purple-500/50',
-    icon: <Brain className="text-purple-400" />,
-    details: ['Context-aware PDF chatting.', 'LLM orchestration.'],
+    github: '#',
+    accent: 'border-green-500 shadow-green-500/50',
+    icon: <Brain className="text-green-400" />,
+    details: [
+      'Built quiz generation features for a multi-tenant LMS.',
+      'Implemented RAG pipelines using PostgreSQL + pgvector.',
+      'Added prompt versioning with the Neighbor gem.',
+      'Implemented real-time features via Action Cable (WebSockets).',
+    ],
+    screenshots: [],
+  },
+  {
+    title: 'Rage-rb Open Source',
+    description: 'Core framework improvements and bug fixes in a production-grade Ruby backend system.',
+    tags: ['Ruby', 'Open Source', 'Backend'],
+    link: 'https://github.com/rage-rb/rage',
+    github: 'https://github.com/rage-rb/rage',
+    accent: 'border-yellow-500 shadow-yellow-500/50',
+    icon: <Terminal className="text-yellow-400" />,
+    details: [
+      'Contributed to core framework improvements and bug fixes.',
+      'Merged PR #247 for optimization.',
+      'Merged PR #244 resolving critical bugs.',
+    ],
     screenshots: [],
   },
 ];
 
 const experience = [
   {
-    title: 'Full Stack Developer Intern',
+    title: 'Full Stack Web Developer Intern',
     company: 'Writecream AI',
     location: 'Remote',
-    date: 'Feb 2025 – Present',
-    duration: '3+ months',
+    date: 'Feb 2025 – April 2026',
+    duration: '1 yr 2 mos',
     type: 'Internship',
     details: [
-      'Developed a full-fledged PDF Editor Tool using HTML, CSS, JS.',
-      'Built an AI Image Unblur Website leveraging AI APIs.',
-      'Created an AI Grading Image Website for dynamic results.',
+      'Building and maintaining responsive web pages used in production.',
+      'Optimized websites for SEO and performance (meta tags, page structure, load time), improving search visibility.',
+      'Developed reusable page templates and handled content management, enabling faster updates and consistency across pages.',
     ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'AI APIs', 'React'],
+    technologies: ['React.js', 'SEO', 'JavaScript'],
+  },
+  {
+    title: 'Full Stack Developer',
+    company: 'SaaS Startup',
+    location: 'Remote',
+    date: 'Aug 2025 – March 2026',
+    duration: '8 mos',
+    type: 'Startup',
+    details: [
+      'Building and maintaining core full-stack features for a SaaS product in a startup environment using Next.js and Supabase.',
+      'Contributing to production deployments, performance improvements, and feature iterations.',
+      'Improved activation rate by ~15% and designed and tracked user funnels (login → signup → dashboard) to identify conversion bottlenecks.',
+    ],
+    technologies: ['Next.js', 'Supabase', 'React', 'Vercel'],
+  },
+  {
+    title: 'Ruby on Rails Backend Developer',
+    company: 'Kontra Hands on Labs',
+    location: 'Remote',
+    date: '2025 – Present',
+    duration: 'Current',
+    type: 'Contract/Full-time',
+    details: [
+      'Implemented user authentication, subscription management, and order workflows using the MERN stack.',
+      'Implemented AARRR Metrics to identify drop-offs in user funnels and improve activation and retention through iterative feature improvements.',
+      'Built quiz generation features for a multi-tenant LMS.',
+      'Implemented RAG pipelines using PostgreSQL + pgvector.',
+      'Added prompt versioning with the Neighbor gem and implemented real-time features via Action Cable (WebSockets).',
+    ],
+    technologies: ['Ruby on Rails', 'MERN', 'PostgreSQL', 'Action Cable'],
   },
 ];
 
 const skills = [
-  { category: 'Languages', items: ['JavaScript', 'TypeScript', 'Python', 'C++'], icon: <Code2 /> },
-  { category: 'Web Dev', items: ['React', 'Node.js', 'Next.js', 'Tailwind'], icon: <Globe /> },
-  { category: 'Databases', items: ['MongoDB', 'PostgreSQL', 'Prisma'], icon: <Database /> },
-  { category: 'Tools', items: ['Git', 'Docker', 'Linux'], icon: <Wrench /> },
+  { category: 'Languages', items: ['TypeScript', 'Python', 'C++', 'Ruby', 'DSL', 'Metaprogramming'], icon: <Code2 /> },
+  { category: 'Web Dev', items: ['React.js', 'Node.js', 'Next.js', 'Rails', 'Sidekiq'], icon: <Globe /> },
+  { category: 'Databases', items: ['PostgreSQL', 'Prisma', 'Supabase', 'PgVector', 'Redis'], icon: <Database /> },
+  { category: 'DevOps & Tools', items: ['Docker', 'Kubernetes', 'Jenkins', 'ArgoCD', 'AWS'], icon: <Wrench /> },
 ];
 
 // --- COMPONENTS ---
@@ -318,7 +349,7 @@ const Hero = () => {
         </h2>
 
         <p className="hero-line text-gray-400 max-w-xl mx-auto text-lg leading-relaxed mb-10 border-l-2 border-cyan-500 pl-4 text-left bg-cyan-950/10 p-4 rounded-r-lg">
-          Constructing intelligent digital architecture. I build scalable web applications with React, Node.js, and modern AI integrations.
+          Backend engineer with 1+ year of production experience in Ruby on Rails and MERN, with contributions to open-source frameworks and deployment on AWS/Vercel. Solved 100+ DSA problems on GeeksforGeeks.
         </p>
 
         <div className="hero-line flex flex-wrap justify-center gap-6">
@@ -454,7 +485,14 @@ const Projects = () => {
               key={idx}
               whileHover={{ y: -5 }}
               className={`bg-gray-900/40 border border-gray-800 hover:${project.accent} group cursor-none transition-all duration-300 flex flex-col`}
-              onClick={() => setSelectedProject(project)}
+              onClick={() => {
+                const targetUrl = project.link !== '#' ? project.link : (project.github !== '#' ? project.github : null);
+                if (targetUrl) {
+                  window.open(targetUrl, '_blank', 'noopener,noreferrer');
+                } else {
+                  setSelectedProject(project);
+                }
+              }}
             >
               <div className="p-6 flex-1 flex flex-col relative overflow-hidden">
                 {/* Scanline Effect */}
